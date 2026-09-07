@@ -1,0 +1,10 @@
+#排除二進位的Notes資料庫與範本
+*.nsf
+*.ntf
+
+#排除Eclipse/Domino Designer本地快取與臨時擋
+.metadata/
+.settings/
+~*
+*.tmp
+*.bak
