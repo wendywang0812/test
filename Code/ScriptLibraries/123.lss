@@ -1,0 +1,14 @@
+%Library:Lib_123
+Description: 123 Agent的核心邏輯
+%END REM
+Option Explicit
+
+Sub Process123Logic
+    Dim session As New NotesSession
+    Dim db As NotesDatabase
+
+    Set db = session.CurrentDatabase
+
+    '放lotus 主要的邏輯
+    Print "成功透過Lib_123執行邏輯"
+End Sub
